@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>M.Haris - Software Engineer</title>
+    <title>M.Haris - Full Stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/font-family.min.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.animatedheadline.css" />
     <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/skins/yellow.min.css" />
     <script src="js/modernizr.custom.min.js"></script>
     <script src="js/experiance-calculator.min.js"></script>
@@ -23,22 +23,23 @@
         <div class="loader-section section-right"></div>
     </div>
     <div class="wrapper">
-        <div class="main-picture woman hide-on-med-and-down"> </div>
-        <div id="bl-main" class="bl-main">
-            <section class="topleft">
-                <div class="bl-box row valign-wrapper">
-                    <div class="row valign-wrapper mb-0">
-                        <div class="title-heading">
-                            <div class="selector uppercase" id="selector">
-                                <h3 class="ah-headline p-none m-none"> <span class="font-weight-400">Hi There !
-                                        I'm</span> <span class="my-name">M.Haris</span> <span
-                                        class="ah-words-wrapper"> <b class="is-visible">Software
-                                            Engineer</b> <b>Javascript Developer</b> <b>Traveler</b> </span> </h3>
-                            </div>
-                        </div>
-                    </div>
+        <div class="main-picture woman hide-on-med-and-down">
+            <div class="profile-card">
+                <div class="profile-avatar-wrapper">
+                    <img src="images/my-pic.jpg" alt="Muhammad Haris" class="profile-avatar" />
                 </div>
-            </section>
+                <h4 class="profile-name">Muhammad Haris</h4>
+                <p class="profile-role">Full Stack Developer</p>
+                <p class="profile-location"><i class="fa fa-map-marker"></i> Lahore, Pakistan</p>
+                <div class="profile-social">
+                    <a target="_blank" href="https://github.com/iamharisdev" aria-label="GitHub"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/iamharisdev" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    <a target="_blank" href="mailto:iamharisdev@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="bl-main" class="bl-main">
+            <section class="topleft"></section>
             <section>
                 <div class="bl-box valign-wrapper">
                     <div class="page-title center-align">
@@ -57,27 +58,32 @@
                             <div class="col s12 m4 profile-picture show-on-medium-and-down section-padding"> <img
                                     src="images/my-pic.jpg" class="responsive-img my-picture" alt="My Photo"> </div>
                             <div class="col s12 m8 l12 xl12 personal-info section-padding">
-                                <h6><i class="fa fa-user"></i> Programmer, Thinker, Creative Dev</h6>
+                                <h6><i class="fa fa-user"></i> Full Stack Developer · Mobile & Web</h6>
                                 <div class="col m12 l12 xl9 p-none mrgb-25">
-                                    <p class="second-font">A highly competent JS professional with a proven track record
-                                        of delivering expertise to organizations. Eager to be challenged in order to
-                                        grow and improve my skills. Passionate to provide my technical-skills to other
-                                        people and organizations. I have strong technical and interpersonal skills,
-                                        enabling me to interact with a wide range of professionals. </p>
+                                    <p class="second-font">Results-driven Full Stack Developer with 4+ years of
+                                        experience designing, building, and deploying scalable cross-platform mobile and
+                                        web applications. Proficient in JavaScript, TypeScript, React Native, Ionic,
+                                        Next.js, Node.js, and Express, with solid experience across relational and
+                                        NoSQL databases. Adept at architecting end-to-end solutions — from polished,
+                                        responsive front-end interfaces to robust, secure back-end APIs — and
+                                        integrating third-party services such as Twilio, Stripe, Firebase, and Agora.
+                                        Recognized for engineering excellence and a consistent track record of
+                                        delivering production-ready apps to global markets. </p>
                                 </div>
                                 <div class="col s12 m12 l6 p-none">
                                     <ul class="second-font list-1">
+                                        <li><span class="font-weight-700">Location: </span>Lahore, Pakistan</li>
                                         <li><span class="font-weight-700">Nationality: </span>Pakistani</li>
                                         <li><span class="font-weight-700">Hobbies: </span>Cricket, Gym, Travelling</li>
                                     </ul>
                                 </div>
                                 <div class="col s12 m12 l6 p-none">
                                     <ul class="second-font list-2">
-                                        <li><span class="font-weight-700">Spoken Languages: </span>English, Urdu</li>
+                                        <li><span class="font-weight-700">Spoken Languages: </span>English (Fluent), Urdu (Native)</li>
                                         <li><span class="font-weight-700">Freelance: </span>Available</li>
                                     </ul>
                                 </div><a
-                                    href="https://drive.google.com/file/d/1N6l8jIDMp2UPi2s4tsFjjnq2sLaokU34/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1BXQaq-dnuWgO18GHlRQehDppoWrbQB8x/view?usp=sharing"
                                     class="btn capitalize font-weight-700"> Download Resume <i
                                         class="fa fa-file-pdf-o"></i> </a>
                             </div>
@@ -116,49 +122,59 @@
                                             <div class="resume-card-body experience">
                                                 <div class="resume-card-body-container second-font">
                                                     <div class="resume-content">
-                                                        <h6><span>Software Engineer</span>
+                                                        <h6><span>Full Stack Developer</span>
                                                         <br/><br/>
-                                                    Viral Square</h6>
-                                                        <span class="date"><i class="fa fa-calendar-o"></i> Aug 2022 -
+                                                    LUMS (Lahore University of Management Sciences)</h6>
+                                                        <span class="date"><i class="fa fa-calendar-o"></i> Aug 2025 -
                                                             Present</span>
-                                                        <p> <strong>Nodejs Responsibilities:</strong>
-                                                             <br>- Create and manage RESTful APIs to facilitate communication between the frontend and backend systems. <br>
-                                                             - Work with databases (SQL or NoSQL) to design schemas, write queries, and manage data storage efficiently. <br>
-                                                             - Implement security best practices such as data encryption, authentication, and authorization to ensure the application is secure from potential threats. <br>
-                                                             - Write unit tests, integration tests, and end-to-end tests to ensure code quality and maintainability.<br>
-                                                             <strong>Mobile Responsibilities:</strong><br>
-                                                             - Build cross-platform mobile applications using React Native that deliver a consistent user experience on both iOS and Android platforms.<br>
-                                                             - Translate UI/UX designs into code, ensuring visual consistency, responsiveness, and smooth animations.<br>
-                                                             - mplement state management solutions (e.g., Redux) to manage application state and data flow effectively.<br>
-                                                             - Develop reusable and modular UI components that can be easily integrated into different parts of the application.<br>
-                                                             - Integrate frontend components with backend APIs and services, handling data retrieval and manipulation.<br>
-                                                             - Ensure the app works seamlessly across various devices, screen sizes, and orientations.</p>
-                                                    </div>
-                                                    <div class="resume-content">
-                                                        <h6><span>Junior Software Engineer | React-Native</span><br/><br/>
-                                                        ArgonTeq</h6>
-                                                        <span class="date"><i class="fa fa-calendar-o"></i> May 2021 - 2022</span>
                                                         <p>
-                                                                <strong>Responsibilities:</strong>
-<br>- Build cross-platform mobile applications using React Native that deliver a consistent user experience on both iOS and Android platforms.
-<br>- Translate UI/UX designs into code, ensuring visual consistency, responsiveness, and smooth animations.
-<br>- implement state management solutions (e.g., Redux) to manage application state and data flow effectively.
-<br>- Develop reusable and modular UI components that can be easily integrated into different parts of the application.
-<br>- Integrate frontend components with backend APIs and services, handling data retrieval and manipulation.</p>
-                                                       
+                                                            <strong>Responsibilities:</strong><br>
+                                                            - Architect and deliver end-to-end web and mobile solutions across the university's digital products.<br>
+                                                            - Build responsive, accessible front-end interfaces in Next.js / React and ship cross-platform mobile features in React Native.<br>
+                                                            - Design and maintain RESTful APIs in Node.js / Express, with PostgreSQL and MongoDB for relational and NoSQL data.<br>
+                                                            - Integrate third-party services (payments, notifications, comms) and own deployments through release.<br>
+                                                            - Collaborate with stakeholders to translate requirements into production-ready features.
+                                                        </p>
                                                     </div><span class="separator"></span>
                                                     <div class="resume-content">
-                                                        <h6><span>Associate Software Engineer | React-Native </span><br/>
-                                                           <br/>
-                                                            Brown Tec
-                                                        </h6> <span class="date"><i class="fa fa-calendar-o"></i> Feb
-                                                            2021 - 2021</span>
-                                                             <p> <strong>Responsibilities:</strong> <br>- Implementing new
-                                                            features using JS frameworks. <br>- Building and deploying
-                                                            apps. <br>- Build Progressive mobile App. </p>
-                                                       
+                                                        <h6><span>Senior Mobile App Developer</span><br/><br/>
+                                                        IdeaX Limited / Outsourcenz (New Zealand)</h6>
+                                                        <span class="date"><i class="fa fa-calendar-o"></i> Sep 2023 - Aug 2025</span>
+                                                        <p>
+                                                            <strong>Responsibilities:</strong><br>
+                                                            - Led delivery of multiple production React Native apps for the NZ/AU market (iSQROLL, Trova, SafeSign, Total Tint, No Yelling).<br>
+                                                            - Owned architecture: navigation, state management (Redux / Context), offline support, and performance tuning for iOS and Android.<br>
+                                                            - Built and consumed Node.js / Express APIs backed by PostgreSQL, MongoDB, and Firebase.<br>
+                                                            - Integrated Stripe, Apple Pay, In-App Purchase, Twilio, Agora, OneSignal, and Socket.io for real-time chat and calls.<br>
+                                                            - Managed Play Store and App Store releases via FastLane and handled review/compliance cycles.<br>
+                                                            - <em>Recognized with the Engineering Excellence Award for outstanding contributions to project innovation.</em>
+                                                        </p>
                                                     </div><span class="separator"></span>
-                                                   
+                                                    <div class="resume-content">
+                                                        <h6><span>Mobile App Developer</span><br/><br/>
+                                                        Viral Square</h6>
+                                                        <span class="date"><i class="fa fa-calendar-o"></i> Aug 2022 - Sep 2023</span>
+                                                        <p>
+                                                            <strong>Responsibilities:</strong><br>
+                                                            - Built cross-platform React Native apps including Memee (AR meme generator with Banuba SDK and Imgly editor).<br>
+                                                            - Authored Node.js / Express REST APIs with PostgreSQL / Prisma ORM and Firebase services.<br>
+                                                            - Implemented in-app purchases, push notifications, and media pipelines for image/video editing.<br>
+                                                            - Translated UI/UX designs into reusable, modular components with smooth animations.<br>
+                                                            - Wrote unit, integration, and end-to-end tests to maintain code quality.
+                                                        </p>
+                                                    </div><span class="separator"></span>
+                                                    <div class="resume-content">
+                                                        <h6><span>Mobile App Developer</span><br/><br/>
+                                                        Argon Tech Inc (Ozi Group)</h6>
+                                                        <span class="date"><i class="fa fa-calendar-o"></i> Apr 2021 - Jul 2022</span>
+                                                        <p>
+                                                            <strong>Responsibilities:</strong><br>
+                                                            - Delivered ProspectX — a real-estate communication app with Twilio voice calls and Socket.io real-time chat.<br>
+                                                            - Built user-facing features in React Native (Redux) and contributed to Node.js / Express backend with PostgreSQL / Sequelize.<br>
+                                                            - Integrated push notifications, deep links, and deployed apps to both Play Store and App Store.<br>
+                                                            - Worked closely with designers to ship pixel-accurate, responsive UI across devices.
+                                                        </p>
+                                                    </div><span class="separator"></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -205,119 +221,83 @@
                                                     <div class="row">
                                                         <div class="col s6">
                                                             <div class="resume-content">
-                                                                <h6>Javascript</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i><i
-                                                                        class="fa fa-star-half-empty"></i> <i
-                                                                         class="fa fa-star-o"></i> </p>
-                                                                         
+                                                                <h6>JavaScript / TypeScript</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
-                                                                <h6>React-Native</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-half-empty"></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <h6>React Native</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
                                                                 <h6>React.js</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o"></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
                                                                 <h6>Next.js</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
-                                                                <h6>Node.js</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <h6>Ionic</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
-                                                                <h6>Express.js</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <h6>Node.js / Express</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
-                                                                <h6>Sequelize</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <h6>PostgreSQL / MySQL</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
-                                                                <h6>Mongoose</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
-                                                            </div>
-                                                            <div class="resume-content">
-                                                                <h6>Socket.io</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o""></i> </p>
+                                                                <h6>MongoDB / Mongoose</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
                                                                 <h6>Firebase</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-half-empty"></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>Socket.io</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                         </div>
                                                         <div class="col s6">
-                                                           
-                                                           
-                                                           
-                                                           
                                                             <div class="resume-content">
-                                                                <h6>JIRA</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o"></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
-                                                            </div>
-                                                           
-                                                           
-                                                            <div class="resume-content">
-                                                                <h6>Bitbucket</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o""></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <h6>Stripe / Apple Pay / IAP</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
                                                             <div class="resume-content">
-                                                                <h6>Github</h6>
-                                                                <p> <i class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star"></i> <i
-                                                                        class="fa fa-star-o"></i> </p>
+                                                                <h6>Twilio / Agora</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
-                                                           
+                                                            <div class="resume-content">
+                                                                <h6>OneSignal / Push Notifications</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>Banuba / Imgly (AR &amp; Media)</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>FastLane (CI for Mobile)</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>Sequelize / Prisma ORM</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>Git / GitHub / Bitbucket</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>Jira / Asana / Trello</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </p>
+                                                            </div>
+                                                            <div class="resume-content">
+                                                                <h6>Slack / Teams</h6>
+                                                                <p> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> </p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -339,11 +319,11 @@
                             <div class="row contact section-padding">
                                 <div class="col s12 m12 l5 xl12 leftside">
                                     <h6 class="font-weight-700">Phone</h6> <span class="font-weight-400 second-font"><i
-                                            class="fa fa-phone"></i> (+92) 304-4041082</span>
+                                            class="fa fa-phone"></i> (+92) 317-4011082</span>
                                     <h6 class="font-weight-700">Email</h6> <span class="font-weight-400 second-font"><i
-                                            class="fa fa-envelope"></i> muhammadharis4999@gmail.com</span>
-                                    <h6 class="font-weight-700">Skype</h6> <span class="font-weight-400 second-font"><i
-                                            class="fa fa-skype"></i>Muhammad Haris</span>
+                                            class="fa fa-envelope"></i> iamharisdev@gmail.com</span>
+                                    <h6 class="font-weight-700">Location</h6> <span class="font-weight-400 second-font"><i
+                                            class="fa fa-map-marker"></i> Lahore, Pakistan</span>
                                     <h6 class="font-weight-700">Social Profiles</h6>
                                     <div class="social">
                                         <ul class="list-inline social social-intro center-align p-none">
@@ -355,7 +335,7 @@
                                                     href="https://github.com/iamharisdev"><i
                                                         class="fa fa-github"></i></a></li>
                                             <li class="linkedin"><a target="_blank"
-                                                    href="https://www.linkedin.com/in/muhammedharis4999/"><i
+                                                    href="https://www.linkedin.com/in/iamharisdev"><i
                                                         class="fa fa-linkedin"></i></a></li>
                                             <!-- <li class="instagram"><a target="_blank"
                                                     href="https://www.linkedin.com/in/muhammedharis4999/"><i
@@ -370,7 +350,7 @@
                         <div class="row">
                             <div class="col s12 m6 l6 center-align">
                                 <h3> <i class="fa fa-laptop"></i> <span class="font-weight-900">
-                                        <script>getExperience('2021-03-01')</script>
+                                        <script>getExperience('2021-04-01')</script>
                                     </span> </h3>
                                 <h6 class="font-weight-700">Professional Experience</h6>
                             </div>
@@ -404,32 +384,37 @@
                                     <div class="valign-wrapper"><span class="font-weight-700 ">ProspectX</span> </div>
                                 </a> </div>
                             <div class="col s12 m6 l6 xl4" data-panel="panel-2"> <a href="#"> <img
-                                        class="responsive-img" src="images/projects/acadify.png" alt="Acadify" />
-                                    <div class="valign-wrapper"><span class="font-weight-700 ">Acadify</span> </div>
+                                        class="responsive-img" src="images/projects/memee.png" alt="Memee" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">Memee (Meme Maker)</span> </div>
                                 </a> </div>
                             <div class="col s12 m6 l6 xl4" data-panel="panel-3"> <a href="#"> <img
-                                        class="responsive-img" src="images/projects/Desend.png" alt="Desend" />
-                                    <div class="valign-wrapper"><span class="font-weight-700 ">Desend chat app</span> </div>
-                                </a> </div>
-                            <div class="col s12 m6 l6 xl4" data-panel="panel-4"> <a href="#"> <img
-                                        class="responsive-img" src="images/projects/memee.png" alt="Memee" />
-                                    <div class="valign-wrapper"><span class="font-weight-700 ">Memee</span> </div>
-                                </a> </div>
-                            <div class="col s12 m6 l6 xl4" data-panel="panel-5"> <a href="#"> <img
-                                        class="responsive-img" src="images/projects/netwync.png" alt="Netwync" />
-                                    <div class="valign-wrapper"><span class="font-weight-700 ">Netwync</span>
-                                    </div>
-                                </a> </div>
-                            <div class="col s12 m6 l6 xl4" data-panel="panel-6"> <a href="#"> <img
-                                        class="responsive-img" src="images/projects/spyware.png"
-                                        alt="spyware" />
-                                    <div class="valign-wrapper"><span class="font-weight-700 ">Spyware</span></div>
-                                </a> </div>
-                            <div class="col s12 m6 l6 xl4" data-panel="panel-7"> <a href="#"> <img
-                                        class="responsive-img" src="images/projects/spotswap.png" alt="spotswap" />
+                                        class="responsive-img" src="images/projects/spotswap.png" alt="SpotSwap" />
                                     <div class="valign-wrapper"><span class="font-weight-700 ">SpotSwap</span> </div>
                                 </a> </div>
-                           
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-4"> <a href="#"> <img
+                                        class="responsive-img" src="images/projects/spyware.png" alt="Total Tint" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">Total Tint</span> </div>
+                                </a> </div>
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-5"> <a href="#"> <img
+                                        class="responsive-img" src="images/projects/netwync.png" alt="No Yelling" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">No Yelling (Web)</span></div>
+                                </a> </div>
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-6"> <a href="#"> <img
+                                        class="responsive-img" src="images/projects/acadify.png" alt="Acadify" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">Acadify</span></div>
+                                </a> </div>
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-7"> <a href="#"> <img
+                                        class="responsive-img" src="images/projects/Desend.png" alt="SafeSign" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">SafeSign</span> </div>
+                                </a> </div>
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-8"> <a href="#"> <img
+                                        class="responsive-img" src="images/projects/Isqroll.png" alt="iSQROLL" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">iSQROLL</span> </div>
+                                </a> </div>
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-9"> <a href="#"> <img
+                                        class="responsive-img" src="images/projects/memee.png" alt="Trova" />
+                                    <div class="valign-wrapper"><span class="font-weight-700 ">Trova Health</span> </div>
+                                </a> </div>
                         </div>
                     </div>
                 </div><img alt="close" src="images/close-button.png" class="bl-icon-close" />
@@ -449,46 +434,35 @@
                                 aria-hidden="true"></span> <span class="outer-line"></span> </div>
                         <div class="row">
                             <div class="col s12 m8 l12 xl12 personal-info section-padding">
-                                <h6 class="achievements-heading">Audio Video call via twillio and agora</h6>
-
+                                <h6 class="achievements-heading"><i class="fa fa-trophy"></i> Engineering Excellence Award — OutsourceNZ</h6>
                                 <div class="col m12 l12 xl9 p-none mrgb-25">
-                                    <p class="second-font">
-Incoming and outgoing both features I has  implemented. call would be one to one or can group call. </p>
+                                    <p class="second-font">Recognized for outstanding contributions to project innovation while delivering production React Native apps for the New Zealand and Australian markets.</p>
                                 </div>
                             </div>
                             <div class="col s12 m8 l12 xl12 personal-info section-padding">
-                                <h6 class="achievements-heading">In-app purchase, Apple pay ,card Pay- </h6>
-                                <!-- <div class="col m12 l12 xl9 p-none mrgb-25">
-                                    <p class="second-font">subscription or featurs buying with card or </p>
-                                </div> -->
+                                <h6 class="achievements-heading">Real-Time Voice & Video Calls — Twilio & Agora</h6>
+                                <div class="col m12 l12 xl9 p-none mrgb-25">
+                                    <p class="second-font">Implemented incoming and outgoing virtual calling — both 1:1 and group — with full background/foreground call handling and push-triggered ringing for ProspectX and iSQROLL.</p>
+                                </div>
                             </div>
                             <div class="col s12 m8 l12 xl12 personal-info section-padding">
-                                <!-- <h6 class="achievements-heading">Integration of Kraken.js in VROOZI - <span
-                                        class="white-color">2019</span></h6>
+                                <h6 class="achievements-heading">Payments — Stripe · Apple Pay · In-App Purchase</h6>
                                 <div class="col m12 l12 xl9 p-none mrgb-25">
-                                    <p class="second-font">Improved the VROOZI's Node.js Project structure by
-                                        integrating Kraken.js.</p>
+                                    <p class="second-font">Built end-to-end payment flows: subscriptions, one-off purchases, IAP top-ups for in-app coin economies, and Apple Pay / card checkout — including receipt validation and edge-case handling.</p>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="col s12 m8 l12 xl12 personal-info section-padding">
-                                <!-- <h6 class="achievements-heading"> Upgrading Angular.js into Angular 8 in VROOZI - <span
-                                        class="white-color">2019</span></h6>
+                                <h6 class="achievements-heading">AR & Rich Media Editing — Banuba & Imgly</h6>
                                 <div class="col m12 l12 xl9 p-none mrgb-25">
-                                    <p class="second-font">Upgrading the VROOZI's Angular.js components into Angular 8.
-                                    </p>
+                                    <p class="second-font">Shipped a Banuba-powered AR camera and an Imgly-based image/video editor in Memee, including stickers, filters, text overlays, and full export pipelines.</p>
                                 </div>
-                            </div> -->
-                            <!-- <div class="col s12 m8 l12 xl12 personal-info section-padding">
-                                <h6 class="achievements-heading"> GharPar - <span class="white-color">(2017 –
-                                        2018)</span></h6>
+                            </div>
+                            <div class="col s12 m8 l12 xl12 personal-info section-padding">
+                                <h6 class="achievements-heading">9 Production Apps Shipped — Play Store & App Store</h6>
                                 <div class="col m12 l12 xl9 p-none mrgb-25">
-                                    <p class="second-font">Worked as a lead developer on Gharpar, which is recently
-                                        appreciated by <strong>Facebook VP</strong> as a female-led tech startup from
-                                        Pakistan. <br><strong><a target="_blank"
-                                                href="https://drive.google.com/open?id=10C1vsw9oxMJSFZMpgtN-3Io-hjhCUgUF">Related
-                                                Post</a></strong> </p>
+                                    <p class="second-font">Delivered ProspectX, Memee, SpotSwap, Acadify, SafeSign, iSQROLL, Trova, Total Tint, and the No Yelling web platform — managing release pipelines, FastLane automation, and store review cycles.</p>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                     <!-- <div class="container page-title center-align">
@@ -523,51 +497,45 @@ Incoming and outgoing both features I has  implemented. call would be one to one
                 <div data-panel="panel-1">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/prospectX.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/prospectX.png" alt="ProspectX" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6> ProspectX - Business and communication | SAL LLC</h6>
-                                        <p>Feb 2022 – Aug 2022</p>
+                                        <h6>ProspectX — All-in-one platform for Real Estate Wholesalers &amp; Investors</h6>
+                                        <p>Argon Tech Inc · Apr 2021 – Jul 2022</p>
                                     </div>
                                     <div class="panel-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>Prospectx is a app solution for real estate wholesalers and investors.
-                                        </p>
-                                        <p>With prospectX App, wholesalers and investors can easliy communicate with real estate members 
-                                            anytime, anywhere.</p>
+                                        <p>ProspectX is the all-in-one platform that helps real estate wholesalers and investors run their business — lead management, communication, and deal flow in a single app. The product is live on both stores and serves a US-based real estate market.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native Developer with hands-on Node.js work on the API layer (MERN/PERN). Owned end-to-end mobile delivery including releases.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>Virtual incoming &amp; outgoing voice calls (Twilio)</li>
+                                            <li>Real-time 1:1 and group chat over Socket.io</li>
+                                            <li>Push notifications for calls, messages, and lead updates</li>
+                                            <li>Authenticated mobile-only access with role-based screens</li>
+                                            <li>Outbound email / SMS messaging flows</li>
+                                        </ul>
                                         <p class="sub-headings">Responsibilities:</p>
-                                        <p>Worked on this project as a react-native Developer and also make some rest api's| MERN. </p>
-                                        <p>My key responsibilities include:</p>
                                         <ul>
-                                            <li> Develop new user-facing features in React-native.</li>
-                                            <li> Develop (REST Apis ) mobile application server-side logic in
-                                                NodeJS/Express/postgresql. </li>
-                                            <li> Develop lightweight, single page app that talks to REST
-                                                API.</li>
-                                            <li> Deploye the apps on both platform IOS and Android</li>
+                                            <li>Built user-facing screens and flows in React Native with Redux state management.</li>
+                                            <li>Designed and consumed REST APIs in Node.js / Express on PostgreSQL with Sequelize.</li>
+                                            <li>Integrated Twilio voice + Socket.io chat with full background/foreground call handling.</li>
+                                            <li>Shipped to Play Store &amp; App Store and managed review cycles.</li>
                                         </ul>
-                                        <p class="sub-headings">Features:</p>
-                                        <p><strong>With prospectX App | Android | iOS, users can:</strong></p>
+                                        <p class="sub-headings">Tech Stack:</p>
                                         <ul>
-                                            <li>User can only login through app</li>
-                                            <li>User can make virtual call via twilio</li>
-                                            <li> User can send messages and received messages</li>
-                                            <li> User can Send emails but not received</li>
-                                            
+                                            <li>React Native, Redux, JavaScript / TypeScript</li>
+                                            <li>Node.js, Express, PostgreSQL, Sequelize ORM</li>
+                                            <li>Twilio, Socket.io, Firebase, Push Notifications</li>
+                                            <li>Bitbucket, Jira</li>
                                         </ul>
-                                       
-                                      
-                                        <p class="sub-headings">Technologies:</p>
+                                        <p class="sub-headings">Live:</p>
                                         <ul>
-                                            <li>JavaScript. </li>
-                                            <li>React-Native | Redux.</li>
-                                            <li>NodeJs/ExpressJS</li>
-                                            <li>Postgresql/Sequelize ORM.</li>
-                                            <li>Git (Bitbucket),Firebase.</li>
-                                           
-                                            <li>Android | iOS</li>
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.prospectx.app">Google Play</a></li>
+                                            <li><a target="_blank" href="https://apps.apple.com/us/app/prospectx/id1600834752">App Store</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -578,52 +546,45 @@ Incoming and outgoing both features I has  implemented. call would be one to one
                 <div data-panel="panel-2">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/acadify.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/memee.png" alt="Memee" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6>Acadify is a community platform for creators, brands & educators.
- SAL LLC</h6>
-                                        <p>Apr 2022 – Nov 2022</p>
+                                        <h6>Memee — Meme Maker Generator with AR &amp; Media Editing</h6>
+                                        <p>Viral Square · Aug 2022 – Sep 2023</p>
                                     </div>
                                     <div class="modal-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>The cleanest and simple community platform makes creating courses, memberships, live events, communication, task management, and much more all in the palm of your hand.</p>
-                                        
+                                        <p>Memee is a social meme-creation platform where users compete in tournaments, judge anonymous submissions, earn in-app coins, and unlock themes &amp; rewards. The top creators win prizes including Amazon gift cards.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native + Node.js Developer. Owned both the on-device media pipeline and the backend that powered tournaments and coin economy.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>AR-powered camera and effects via Banuba SDK</li>
+                                            <li>Image &amp; video editing with Imgly (filters, stickers, text, overlays)</li>
+                                            <li>Tournament-based meme submissions with anonymous judging</li>
+                                            <li>In-app coin economy, theme store, and In-App Purchase top-ups</li>
+                                            <li>Social timeline — like, comment, share, forward</li>
+                                        </ul>
                                         <p class="sub-headings">Responsibilities:</p>
-                                        <p>Worked on this product as a React-Native Developer </p>
-                                        <p>My key responsibilities include:</p>
                                         <ul>
-                                            <li> Develop new user-facing features in React-Native.</li>
-                                            <li> Integrate Restfull api's. </li>
-                                            <li> Develop lightweight, cross-browser, single page app that talks to REST
-                                                API.</li>
-                                            <li> Translation of the UI/UX design wire frames to actual code that will
-                                                produce visual elements </li>
-                                            <li>of the application.</li>
-                                            <li>Deploy android and ios both apps on play store and app store.</li>
+                                            <li>Built React Native screens, tournament flow, and creator tools.</li>
+                                            <li>Designed Node.js / Express REST APIs backed by PostgreSQL + Prisma ORM.</li>
+                                            <li>Integrated Banuba and Imgly SDKs for AR and rich media editing.</li>
+                                            <li>Wrote unit, integration, and end-to-end tests for critical paths.</li>
                                         </ul>
-                                        <p class="sub-headings">Features:</p>
-                                        <p><strong>Acadify App | Android | iOS, users can:</strong></p>
+                                        <p class="sub-headings">Tech Stack:</p>
                                         <ul>
-                                            <li>Student and teachers can  enroll them self.</li>
-                                            <li>Student can easily find the teacher for the specific course.</li>
-                                            <li>In the app has chat module which are open group chat.
-                                            </li>
-                                          
-                                
+                                            <li>React Native, JavaScript / TypeScript</li>
+                                            <li>Node.js, Express, PostgreSQL, Prisma / Sequelize</li>
+                                            <li>Banuba SDK, Imgly, Firebase</li>
+                                            <li>In-App Purchase, GitHub, Slack</li>
                                         </ul>
-                                       
-                                        <p class="sub-headings">Technologies:</p>
+                                        <p class="sub-headings">Live:</p>
                                         <ul>
-                                            <li>JavaScript. </li>
-                                            <li>React-Native</li>
-                                            <li>NodeJs/ExpressJS</li>
-                                            <li>Postgresql/Prisma ORM.</li>
-                                            <li>Git (Github),Firebase.</li>
-                                            <li>XML,typescript</li>
-                                  
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.rn.memee">Google Play</a></li>
+                                            <li><a target="_blank" href="https://apps.apple.com/us/app/meme-maker-generator-memee/id6444485595">App Store</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -634,33 +595,41 @@ Incoming and outgoing both features I has  implemented. call would be one to one
                 <div data-panel="panel-3">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/Desend.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/spotswap.png" alt="SpotSwap" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6>Desend chat app</h6>
-                                        <p>This app is not publish by myself</p>
+                                        <h6>SpotSwap — Smart City Parking Marketplace</h6>
+                                        <p>IdeaX Limited / Outsourcenz</p>
                                     </div>
                                     <div class="modal-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>This is a communication app which use blockchain for purchase some features.</p>
-                                        <p class="sub-headings">Responsibilities:</p>
-                                        <p>Worked on this product as a React-native Developer.</p>
-                                        <p><strong>With this system users can:</strong></p>
+                                        <p>SpotSwap turns the chaos of city parking into an organised, affordable marketplace where everyday people can find and share parking spots. Designed to make garage-level convenience accessible to everyone — often cheaper than free parking and safer too.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native Developer. Owned the maps and location experience end-to-end.</p>
+                                        <p class="sub-headings">Key Features:</p>
                                         <ul>
-                                            <li> Create a group or one to one chat.</li>
-                                            <li> Share media locations contact voice messages and documents.</li>
-                                            <li> Use blockchain contract for buying some emojies and other features.</li>
+                                            <li>Google Maps &amp; Places API integration for spot discovery</li>
+                                            <li>Find &amp; share parking spots nearby with directions</li>
+                                            <li>Real-time availability and location-based search</li>
+                                            <li>User profile and spot listings</li>
                                         </ul>
-                                       
-                                        <p class="sub-headings">Technologies:</p>
+                                        <p class="sub-headings">Responsibilities:</p>
                                         <ul>
-                                            <li> JavaScript. </li>
-                                            <li> React-Native.</li>
-                                            <li> NodeJs/ExpressJS/BlockChain/Eather.</li>
-                                            <li> MySql/Sequelize ORM.</li>
-                                           <li>Firebase</li>
+                                            <li>Built the mobile app in React Native with location services and map rendering.</li>
+                                            <li>Integrated Google Maps, Places, and Directions APIs.</li>
+                                            <li>Consumed Node.js REST APIs and Firebase services.</li>
+                                            <li>Deployed and managed releases on Play Store.</li>
+                                        </ul>
+                                        <p class="sub-headings">Tech Stack:</p>
+                                        <ul>
+                                            <li>React Native, Node.js, Firebase</li>
+                                            <li>Google Maps / Places API</li>
+                                        </ul>
+                                        <p class="sub-headings">Live:</p>
+                                        <ul>
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.spotswap">Google Play</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -671,47 +640,35 @@ Incoming and outgoing both features I has  implemented. call would be one to one
                 <div data-panel="panel-4">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/memee.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/spyware.png" alt="Total Tint" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6 class="modal-title">Memee app</h6>
-                                        <p>Dec 2022 – jun 2023</p>
+                                        <h6>Total Tint — Specialized Tinting Services App</h6>
+                                        <p>IdeaX Limited / Outsourcenz · Android In Development</p>
                                     </div>
                                     <div class="modal-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>MeMee is a platform made for the people and judged by the people. It is the users of the app that will get a chance to act as jury and rate the memes that enter each tournament. The content will be shown to the judges during the tournament period as anonymously uploaded. This is so that the rating is done fairly and the prize goes to the funniest meme. Users who judge the memes will earn MeMee coins in exchange for rating content. They can accumulate these coins and use them to buy items from the MeMee store.
-MeMee will host routine tournaments on its platform. Participants can enter and post memes anonymously. In order for the memes to persevere, they have to have viral worthy potential. Users must use MeMee’s in- app tools to make original content and memes that are gracing the platform and the internet for the very first time. The most engaging meme wins!
-Out of the myriad of users, the top hundred meme makers will earn golden MeMee points redeemable at the MeMee store. The top three winners receive Amazon gift cards.</p>
+                                        <p>A purpose-built mobile app for the window tinting industry. Integrates the Opticutter cut-optimisation APIs and a custom image labelling editor so installers can lay out, label, and estimate jobs directly from their phone.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native Developer. Owned both the third-party API integration and the custom image-editor experience.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>Opticutter API integration for cut optimisation</li>
+                                            <li>Custom image labelling editor with annotations</li>
+                                            <li>Job-based workflow tailored to tinting professionals</li>
+                                        </ul>
                                         <p class="sub-headings">Responsibilities:</p>
-                                        <p>Worked on this project as a React-native and NodeJS Developer </p>
-                                        <p>My key responsibilities include:</p>
                                         <ul>
-                                            <li>Develop new user-facing features in React-Native.</li>
-                                            <li>Develop (REST Apis ) web and mobile application server-side logic in
-                                                NodeJS/Express/Postgrsql/prisma ORM. </li>
-                                            <li>Develop lightweight, cross-browser, single page app that talks to REST
-                                                API.</li>
-                                            <li>Translation of the UI/UX design wire frames to actual code that will
-                                                produce visual elements of the application.</li>
+                                            <li>Built custom image labelling/editor component in React Native.</li>
+                                            <li>Integrated Opticutter REST APIs and handled domain-specific calculations.</li>
+                                            <li>Consumed Node.js REST APIs with Firebase services.</li>
                                         </ul>
-                                        <p class="sub-headings">Features:</p>
-                                        <p><strong>With Memee user can:</strong></p>
+                                        <p class="sub-headings">Tech Stack:</p>
                                         <ul>
-                                            <li>Create memee and share on timeLine.</li>
-                                            <li>User can like comment forward and share the memee for fun.</li>
-                                            <li>Themes are purchased user can buy theam via app digital coin.</li>
-                                            <li>User can Earn Coin by juding the memee in the tournament or can purchase via in-app purchase.</li>
-                                        </ul>
-                                       
-                                        <p class="sub-headings">Technologies:</p>
-                                        <ul>
-                                            <li>JavaScript. </li>
-                                            <li>React-Native.</li>
-                                            <li>NodeJs/ExpressJS/Postgresql/Sequilize ORM.</li>
-                                            <li>Git (Github), Slack,Firebase.</li>
-                                          
+                                            <li>React Native, Node.js, Firebase</li>
+                                            <li>Opticutter API</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -722,43 +679,40 @@ Out of the myriad of users, the top hundred meme makers will earn golden MeMee p
                 <div data-panel="panel-5">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/netwync.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/netwync.png" alt="No Yelling" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6>Netwync</h6>
-                                        <p>This project is closed because client is not prograssive</p>
+                                        <h6>No Yelling — Driving School Web Platform</h6>
+                                        <p>IdeaX Limited / Outsourcenz · Production</p>
                                     </div>
                                     <div class="modal-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>Connect all social media account with single app.</p>
+                                        <p>A modern web platform for an Australia-wide driving school promising stress-free lessons. Built with Next.js for fast page loads, server-side rendering for SEO, and a polished, accessible UI for learners and instructors.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>Full Stack Developer — UI/UX implementation, SEO, and API integration.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>Pixel-accurate UI/UX implementation from designs</li>
+                                            <li>SEO-optimised pages and metadata for organic reach</li>
+                                            <li>REST API integration for bookings and lesson data</li>
+                                            <li>Responsive across mobile, tablet, and desktop</li>
+                                        </ul>
                                         <p class="sub-headings">Responsibilities:</p>
-                                        <p>I worked on this project as a React-Native Developer | 
-                                             My key
-                                            responsibilities include:</p>
                                         <ul>
-                                            <li>Develop new user-facing features in Angular4.</li>
-                                           
-                                            <li>Develop lightweight, cross-browser, single page app that talks to REST
-                                                API.</li>
-                                            <li>Translation of the UI/UX design wire frames to actual code that will
-                                                produce visual elements of the application.</li>
+                                            <li>Built pages and components in Next.js with server-side rendering.</li>
+                                            <li>Implemented on-page SEO (metadata, sitemaps, semantic markup).</li>
+                                            <li>Integrated REST APIs from the Node.js backend.</li>
                                         </ul>
-                                        <p class="sub-headings">Features:</p>
-                                        <p>With Netwync App | Android | iOS, users can:</p>
+                                        <p class="sub-headings">Tech Stack:</p>
                                         <ul>
-                                            <li>Connect all social media account with single app.</li>
-                                            <li>Send message or recieve notifications for all social media account on the app.</li>
-                                           
+                                            <li>Next.js, Node.js</li>
+                                            <li>SEO tooling, REST APIs</li>
                                         </ul>
-                                       
-                                        <p class="sub-headings">Technologies:</p>
+                                        <p class="sub-headings">Live:</p>
                                         <ul>
-                                            <li>JavaScript. </li>
-                                            <li>React-Native.</li>
-                                            <li>Git (GitHub), Slack,Firebase.</li>
-                                            <li>Android/IOS</li>
+                                            <li><a target="_blank" href="https://noyelling.com.au">noyelling.com.au</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -769,46 +723,39 @@ Out of the myriad of users, the top hundred meme makers will earn golden MeMee p
                 <div data-panel="panel-6">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/spyware.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/acadify.png" alt="Acadify" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6>Spyware (Tracking app)</h6>
-                                        <p>This project is in development phase.</p>
+                                        <h6>Acadify — Study Abroad Platform (Physics Wallah Ecosystem)</h6>
+                                        <p>IdeaX Limited / Outsourcenz</p>
                                     </div>
                                     <div class="modal-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>The project will use for tracking the children mobile what they are working on his/her mobile. Parent is the target of the app.</p>
+                                        <p>Acadify supports international students applying to global universities. Part of the Physics Wallah ecosystem, the app guides applicants through course discovery, application tracking, and counsellor communication.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native Developer — UI/UX implementation and API integration.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>Course &amp; university discovery with rich filtering</li>
+                                            <li>Application tracking and document uploads</li>
+                                            <li>In-app communication with counsellors</li>
+                                            <li>Polished UI/UX for prospective students</li>
+                                        </ul>
                                         <p class="sub-headings">Responsibilities:</p>
-                                        <p>Worked on this Project as a Full Stack JS Developer </p>
-                                        <p>My key responsibilities include:</p>
                                         <ul>
-                                            <li>Develop all frontend (React-native and Nextjs) and  Backend in Node.js.</li>
-                                            <li>Develop rest full api's for mobile ans web both.</li>
-                                          
+                                            <li>Translated UI/UX designs into React Native screens.</li>
+                                            <li>Integrated REST APIs from the Node.js backend.</li>
+                                            <li>Shipped to Play Store under the xyz.penpencil.unigo bundle.</li>
                                         </ul>
-                                        <p class="sub-headings">Features:</p>
-                                        <p><strong>With this system Parent can:</strong></p>
+                                        <p class="sub-headings">Tech Stack:</p>
                                         <ul>
-                                            <li>Track there children.</li>
-                                            <li>Checked all the activities of there children mobiles.</li>
-                                            <li>Can see the messages,calllogs,current location and mobile screenshots.</li>
-                                           
+                                            <li>React Native, Node.js, Firebase</li>
                                         </ul>
-                                        <p><strong>With Spyware | Dashboard,Admin can:</strong></p>
+                                        <p class="sub-headings">Live:</p>
                                         <ul>
-                                            <li>Add/Edit/Remove/show Children mobile.</li>
-                                            <li>Enable/Disable the core module like screenshots,messages,current location  ...etc.</li>
-                                            
-                                        </ul>
-                                        <p class="sub-headings">Technologies:</p>
-                                        <ul>
-                                            <li>JavaScript. </li>
-                                            <li>React-Native/Nextjs</li>
-                                            <li>NodeJs/ExpressJS.</li>
-                                            <li>Postgresql/Prisma ORM.</li>
-                                            <li>Git (GitHub, ClickUp,firebase)</li>
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=xyz.penpencil.unigo">Google Play</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -819,38 +766,122 @@ Out of the myriad of users, the top hundred meme makers will earn golden MeMee p
                 <div data-panel="panel-7">
                     <div class="row">
                         <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
-                                class="responsive-img" src="images/projects/spotswap.png" alt="project" /> </div>
+                                class="responsive-img" src="images/projects/Desend.png" alt="SafeSign" /> </div>
                         <div class="col s12 l6 xl6 section-padding panel-content">
                             <div class="panel-dialog">
                                 <div>
                                     <div class="panel-header">
-                                        <h6> SpotSwap</h6>
-                                      
+                                        <h6>SafeSign — Workplace Health &amp; Safety App for CALD Workers</h6>
+                                        <p>IdeaX Limited / Outsourcenz</p>
                                     </div>
                                     <div class="modal-body">
                                         <p class="sub-headings">Description:</p>
-                                        <p>SpotSwap was designed to be a way to organise the chaos of parking in busy cities while at the same time giving the convenience of parking at a garage to everyone not just those who can afford it. SpotSwap was made so that anyone could use it and everyone could afford it an if used the correct way it is in fact cheaper than free parking. As well as its added safety benefits to the public ensuring there’s always a vehicle to let you out.</p>
-                                       <p>My key responsibilities include:</p>
+                                        <p>SafeSign educates CALD (Culturally and Linguistically Diverse) workers on industrial signage and workplace risks. The app breaks down safety information into bite-sized, accessible lessons to reduce on-site incidents.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native Developer — UI/UX implementation and API integration.</p>
+                                        <p class="sub-headings">Key Features:</p>
                                         <ul>
-                                            <li>Develope mobile app.</li>
-                                            <li>Integrate API's.</li>
-                                             <li>Deploy the apps</li>
-                                          
+                                            <li>Industrial signage education modules</li>
+                                            <li>Workplace risk awareness content</li>
+                                            <li>Multilingual support tailored for CALD workers</li>
                                         </ul>
-                                        <p class="sub-headings">Features:</p>
-                                        <p><strong>With this app user can:</strong></p>
+                                        <p class="sub-headings">Responsibilities:</p>
                                         <ul>
-                                            <li>Find parking location by his/her nearby.</li>
-                                           
-                                           
+                                            <li>Translated UI/UX designs into React Native screens.</li>
+                                            <li>Integrated REST APIs from the Node.js backend.</li>
                                         </ul>
-                                       
-                                        <p class="sub-headings">Technologies:</p>
+                                        <p class="sub-headings">Tech Stack:</p>
                                         <ul>
-                                           
-                                            <li>React-Native</li>
-                                            
-                                            <li>Git (GitHub, ClickUp,firebase)</li>
+                                            <li>React Native, Node.js, Firebase</li>
+                                        </ul>
+                                        <p class="sub-headings">Live:</p>
+                                        <ul>
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.safesignz">Google Play</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-panel="panel-8">
+                    <div class="row">
+                        <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
+                                class="responsive-img" src="images/projects/Isqroll.png" alt="iSQROLL" /> </div>
+                        <div class="col s12 l6 xl6 section-padding panel-content">
+                            <div class="panel-dialog">
+                                <div>
+                                    <div class="panel-header">
+                                        <h6>iSQROLL — NZ Buy / Sell Marketplace with In-App Chat</h6>
+                                        <p>IdeaX Limited / Outsourcenz</p>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="sub-headings">Description:</p>
+                                        <p>iSQROLL is a New Zealand buy/sell marketplace combining classifieds with integrated chat and secure trading. The goal: keep the whole transaction — discovery, negotiation, agreement — inside one trustworthy app.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>Senior React Native Developer — owned the real-time chat experience and key marketplace flows.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>Real-time buyer/seller chat over Socket.io</li>
+                                            <li>Twilio-backed comms for verification and notifications</li>
+                                            <li>Listings, search, and category browsing</li>
+                                            <li>Secure trade flow with auth and rating system</li>
+                                        </ul>
+                                        <p class="sub-headings">Responsibilities:</p>
+                                        <ul>
+                                            <li>Built real-time chat module and listing flows in React Native.</li>
+                                            <li>Integrated Socket.io and Twilio.</li>
+                                            <li>Consumed Node.js REST APIs and Firebase services.</li>
+                                        </ul>
+                                        <p class="sub-headings">Tech Stack:</p>
+                                        <ul>
+                                            <li>React Native, Node.js, Firebase</li>
+                                            <li>Twilio, Socket.io</li>
+                                        </ul>
+                                        <p class="sub-headings">Live:</p>
+                                        <ul>
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.isqroll">Google Play</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-panel="panel-9">
+                    <div class="row">
+                        <div class="col s12 l6 xl6 section-padding section-padding-right-none"> <img
+                                class="responsive-img" src="images/projects/memee.png" alt="Trova" /> </div>
+                        <div class="col s12 l6 xl6 section-padding panel-content">
+                            <div class="panel-dialog">
+                                <div>
+                                    <div class="panel-header">
+                                        <h6>Trova — Health Professional Practice Management</h6>
+                                        <p>IdeaX Limited / Outsourcenz</p>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="sub-headings">Description:</p>
+                                        <p>Trova helps health professionals manage their day-to-day practice — scheduling, virtual sessions, and client relationships — all from a single mobile app.</p>
+                                        <p class="sub-headings">My Role:</p>
+                                        <p>React Native Developer — built provider-facing experience.</p>
+                                        <p class="sub-headings">Key Features:</p>
+                                        <ul>
+                                            <li>Schedule and calendar management for providers</li>
+                                            <li>Virtual session support</li>
+                                            <li>Client list and engagement tracking</li>
+                                        </ul>
+                                        <p class="sub-headings">Responsibilities:</p>
+                                        <ul>
+                                            <li>Built provider screens and scheduling flow in React Native.</li>
+                                            <li>Integrated Node.js REST APIs and Firebase.</li>
+                                        </ul>
+                                        <p class="sub-headings">Tech Stack:</p>
+                                        <ul>
+                                            <li>React Native, Node.js, Firebase</li>
+                                        </ul>
+                                        <p class="sub-headings">Live:</p>
+                                        <ul>
+                                            <li><a target="_blank" href="https://play.google.com/store/apps/details?id=trovahealth.provider">Google Play</a></li>
                                         </ul>
                                     </div>
                                 </div>

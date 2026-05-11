@@ -176,26 +176,102 @@ body {
     display: inline-block;
 }
 
-.main-picture.men {
-    background-image: url("../images/my-pic.jpg");
+.main-picture.men,
+.main-picture.woman {
+    background-image: none;
     padding: 0;
     margin-top: 24px;
     margin-left: 24px;
     height: calc(100vh - 48px);
-    background-size: cover;
-    background-position: center center;
     width: calc(33.3333333333% - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #1f2229 0%, #14161b 100%);
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
 }
 
-.main-picture.woman {
-    background-image: url("../images/my-pic.jpg");
-    padding: 0;
-    margin-top: 24px;
-    margin-left: 24px;
-    height: calc(100vh - 48px);
-    background-size: cover;
-    background-position: center center;
-    width: calc(33.3333333333% - 48px);
+.profile-card {
+    text-align: center;
+    padding: 40px 28px;
+    width: 100%;
+    max-width: 360px;
+}
+
+.profile-avatar-wrapper {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 24px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(135deg, #ffc107 0%, #ff7043 100%);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.profile-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 4px solid #14161b;
+}
+
+.profile-name {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: 0.5px;
+}
+
+.profile-role {
+    color: #ffc107;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0 0 14px;
+}
+
+.profile-location {
+    color: #b8b8b8;
+    font-size: 13px;
+    margin: 0 0 22px;
+}
+
+.profile-location i {
+    margin-right: 6px;
+    color: #ffc107;
+}
+
+.profile-social {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.profile-social a {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+.profile-social a:hover {
+    background: #ffc107;
+    color: #14161b;
+    border-color: #ffc107;
+    transform: translateY(-2px);
 }
 
 /* Dark Body
@@ -586,7 +662,8 @@ h4 {
 
 .bl-main>section:nth-child(2) {
     top: 24px;
-    left: 50%;
+    left: 0;
+    width: calc(100% - 24px);
     background: #fff;
 }
 
@@ -714,10 +791,7 @@ section.bl-expand .bl-icon-close {
 ================================================== */
 
 .bl-main>section.topleft {
-    top: 24px;
-    left: 0;
-    position: relative;
-    background: transparent;
+    display: none;
 }
 
 .bl-main>section.topleft.woman {
